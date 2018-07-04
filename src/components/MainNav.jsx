@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import { FaChevronDown, FaChevronUp } from 'react-icons/lib/fa';
-import  { IoIosThunderstormOutline, IoPaperAirplane, IoIosEmailOutline,IoWrench, IoEmail }  from  'react-icons/lib/io/';
+import  { IoIosHomeOutline, IoPaperAirplane, IoWrench, IoEmail }  from  'react-icons/lib/io/';
 import { TiCodeOutline } from 'react-icons/lib/ti';
 
 const ListLink = (props) => (
@@ -25,7 +25,7 @@ class MainNav extends React.Component {
     this.closeMenu = this.closeMenu.bind(this);
     this.state = {
       links: [
-        { to: '/', text: 'Home', icon: IoIosThunderstormOutline },
+        { to: '/', text: 'Home', icon: IoIosHomeOutline },
         { to: '/toolbox/', text: 'Toolbox', icon: IoWrench },
         { to: '/playground/', text: 'Playground', icon: IoPaperAirplane },
         { to: '/contact/', text: 'Contact', icon: IoEmail }
@@ -55,7 +55,7 @@ class MainNav extends React.Component {
         { 
           this.state.links.map((link, i) => (
             <ListLink closeMenu={this.closeMenu} to={link.to} key={i} >
-              <link.icon />
+              <link.icon  />
               <span className="c-main-nav__text">{link.text}</span>
             </ListLink>  
           )) 

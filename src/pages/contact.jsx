@@ -1,7 +1,7 @@
 import React from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 import Obfuscate from "react-obfuscate";
-import { FaEnvelopeO, FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/lib/fa/";
+import { FaEnvelopeO, FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaMedium } from "react-icons/lib/fa/";
 import Helmet from "react-helmet";
 
 export default props => {
@@ -16,6 +16,16 @@ export default props => {
         <li className="c-contact-list__item">
           <FaEnvelopeO />
           <Obfuscate email="stojan.peshov@gmail.com" />
+        </li>
+        <li className="c-contact-list__item">
+          <FaMedium />
+          <a
+            href="https://medium.com/@stojanpeshov"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @stojanpeshov
+          </a>
         </li>
         <li className="c-contact-list__item">
           <FaTwitter />

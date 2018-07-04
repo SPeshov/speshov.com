@@ -1,4 +1,4 @@
-# greglobinski.com
+# speshov.com
 
 That's the code of my website (speshov.com). My first production-use of the Gatsby-React tandem.
 
