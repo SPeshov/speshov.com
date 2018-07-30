@@ -47,16 +47,7 @@ export default props => {
             SPeshov
           </a>
         </li>
-<!--         <li className="c-contact-list__item">
-          <FaLinkedin />
-          <a
-            href="https://www.linkedin.com/in/stojan-peshov-/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Stojan (Stole) Peshov
-          </a>
-        </li> -->
+
         <li className="c-contact-list__item">
           <FaInstagram />
           <a
