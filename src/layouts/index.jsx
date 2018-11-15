@@ -24,6 +24,11 @@ class DefaultLayout extends React.Component {
             name: 'description', 
             content: `I build web applications using: JavaScrip, ES2015, Babel, HTML5, CSS, CSS3, React, Angular, Gatsby, Webpack ...` 
           }]}
+          
+           meta={[{ 
+            name: 'google-site-verification', 
+            content: `bbh3MNx5dCW6t2sHUa1_Tl84iWec4wmSYKXdF2BlNQk` 
+          }]}
         />    
           
         <div className={`l-page-container ${this.props.remarkScreenisActive && 'is-blurred'}`}>
