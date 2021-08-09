@@ -30,7 +30,7 @@ export default props => {
         <li className="c-contact-list__item">
           <FaTwitter />
           <a
-            href="https://twitter.com/SPeshov"
+            href="https://twitter.com/speshov"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ export default props => {
         <li className="c-contact-list__item">
           <FaInstagram />
           <a
-            href="https://www.instagram.com/speshov/"
+            href="https://www.instagram.com/thepeshov/"
             target="_blank"
             rel="noopener noreferrer"
           >
